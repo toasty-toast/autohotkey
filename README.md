@@ -1,8 +1,11 @@
 # AutoHotKey Scripts
+
 This repository contains my collection of AutoHotkey scripts. The following sections document what is defined in each `.ahk` file.
 
 ## hotkeys.ahk
+
 `hotkeys.ahk` defines all the hotkeys, which are key combinations that trigger an action.
+
 | Hotkey | Description |
 | ------ | ----------- |
 | `CTRL` + `ALT` + `Mouse Wheel Down` | Scroll right |
@@ -17,13 +20,18 @@ This repository contains my collection of AutoHotkey scripts. The following sect
 | `WIN` + `End` | Turn off monitors |
 
 ## hotkeys.include.ahk
+
 `hotkeys.include.ahk` defines variables used by some hotkeys defined in `hotkeys.ahk`.
+
 | Variable | Description |
+| -------- | ----------- |
 | Username | Username used in hotkeys that output a username |
 | Password  | Password used in hotkeys that output a password |
 
 ## hotstrings.ahk
+
 `hotstrings.ahk` defines all the hotstrings, which are strings that are automatically replaced by other strings when typed.
+
 | Hotstring | Replacement Text |
 | --------- | ---------------- |
 | \*shrug\* | ¯\\_(ツ)_/¯ |
